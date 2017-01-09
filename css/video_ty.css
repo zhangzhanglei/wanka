@@ -1,0 +1,281 @@
+body,div,img,ul,li,p,span,h3,a,strong,input,button{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	
+}
+body{
+	background-color: #e2e2e2;
+}
+/*最外层包裹*/
+.CHL_vty{
+	width: 100%;
+	margin: auto;
+}
+/*content最外层*/
+.CHL_vtycontent{
+	width: 100%;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+.CHL_vtyupimg{
+	width: 100%;
+}
+/*中间查看更多礼包*/
+.CHL_vtyz1{
+	width: 100%;
+	background: white;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.CHL_vtyzcontent{
+	width: 90%;
+	margin: auto;
+	position: relative;
+}
+.CHL_vtyzcontent strong{
+	position: absolute;
+	top: 10px;
+	left: 23%;
+	font-size: 1rem;
+}
+.CHL_vtyzcontent span{
+	position: absolute;
+	top: 40px;
+	left: 23%;
+	width: 70%;
+	color: rgb(171,171,171);
+	font-size: 0.8rem;
+	text-overflow:ellipsis;
+    white-space:nowrap;   
+    overflow:hidden;
+}
+.CHL_vtyzimg{
+	width: 20%;
+	height: 70px;
+}
+.CHL_vtyzimg img{
+	width: 100%;
+	height: 100%;
+}
+.CHL_scsgzcontent2{
+	width: 90%;
+	margin: auto;
+	border-top: 1px solid rgb(221,221,221);
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 15px;
+	padding-bottom: 5px;	
+}
+.CHL_scsgzcontent2sp{
+	color: rgb(254,119,111);
+}
+/*九宫格*/
+.CHL_vtyz2{
+	width: 100%;
+	background: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 10px;
+	
+	
+	
+}
+.CHL_vtyz2t{
+	width: 95%;
+	height: 210px;
+	margin: auto;
+	background: url(../img/商城/jgg2.png) no-repeat;
+	background-size: 100% 97%;
+}
+.CHL_vtyz2t1{
+	width: 100%;
+	height: 70px;
+}
+.CHL_vtyz2t1f{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	height: 70px;
+}
+.CHL_vtyz2t1fa{
+	line-height: 70px;
+	font-size: 1.2rem;
+	color: rgb(112,110,147);
+}
+/*八个图标*/
+.CHL_vtyz3{
+	width: 100%;
+	background: white;
+	padding-bottom: 10px;
+	/*padding-top: 10px;*/
+	margin-top: 10px;
+	height: 180px;
+	display: none;
+	
+	
+}
+.CHL_vtyz3u{
+	height: 50%;
+	width: 100%;
+}
+.CHL_vtyz3uf{
+	float: left;
+	width: 24%;
+	height: 100%;
+	/*display:table-cell;*/ 
+	text-align: center;	
+	/*vertical-align: middle;*/
+	border-right: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	position: relative;
+}
+.CHL_vtyz3uf img{	
+	width: 35%;
+	margin-bottom: 5%;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	/*水平垂直居中*/
+	transform: translate3d(-50%,-50%,0);
+	
+	
+}
+.CHL_vtyz3uf span{
+	
+	position: absolute;
+	font-size: 0.9rem;
+	color: rgb(123,122,119);
+	text-align: center;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+}
+/*视频资讯*/
+.CHL_vtyz4{
+	width: 100%;
+	background: white;
+	height: 260px;
+	padding-top: 20px;
+	
+}
+
+.CHL_vtyz3dhl{
+	width: 90%;
+	margin:0 auto;
+	position: relative;
+	
+}
+.CHL_vtyz3dhlli{
+	list-style: none;
+	float: left;
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+	/*height: 30px;*/
+	
+}
+.CHL_vtyz3dhl li:nth-child(1) a {
+	color: red;
+}
+.CHL_vtyz3dhl a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2rem;
+	/*height: 30px;*/
+	display: inline-block;
+}
+
+#CHL_vtyz3line{
+	margin-left: 3%;
+	background: red;
+	width: 27%;
+	height: 3px;
+	position: absolute;
+	top: 44px;
+	left: 0px;
+	z-index: 1;
+}
+/*li信息列表*/
+.CHL_vtyz3lb{
+	/*padding-top: 11px;*/
+	/*margin-bottom: 20px;*/
+	
+}
+.CHL_vtyz3lbul{
+	position: relative;
+	clear: both;
+}
+.CHL_vtyz3lbli{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	/*display: none;*/
+	/*opacity: 0;*/
+	
+}
+.CHL_vtyz3lbli2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*display: none;*/
+	opacity: 0;
+	
+	
+}
+.CHL_vtyz3lbli3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*display: none;*/
+	opacity: 0;
+	
+	
+}
+
+.CHL_vtyz3lbgz{
+	height: 80px;
+	width: 100%;
+	margin-top: 10px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-top: 1px solid rgb(221,221,221);
+}
+.CHL_vtyz3lbgzcontent{	
+	/*height: 100%;*/
+	width: 95%;
+	margin: auto;
+}
+.CHL_vtyz3lbgzcontent strong{
+	font-size: 1rem;
+	width: 58%;
+	float: right;
+	line-height: 22px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+    display:-webkit-box; 
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    /*margin-right: 5%;*/ 
+}
+.CHL_vtyz3lbgzcontents1{
+	color: rgb(114,114,114);
+	font-size: 0.8rem;
+	float: right;
+	margin-top: 8%;
+}
+
+.CHL_vtyz3lbgzimg{
+	width: 39%;
+	float: left;
+	
+}
+.CHL_vtyz3lbgzimg img{
+	width: 100%;
+	height: 100%;
+}
